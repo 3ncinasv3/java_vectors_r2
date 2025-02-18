@@ -9,19 +9,19 @@ public class Vector {
         this.x2 = x2;
     }
     
-    public double GetX1() {
+    public double getX1() {
         return x1;
     }
-    public double GetX2() {
+    public double getX2() {
         return x2;
     }
 
-    public void SetX1(double x1) {
+    public void setX1(double x1) {
     this.x1 = x1;
     }
 
-    public void SetX2(double x1) {
-    this.x1 = x1;
+    public void setX2(double x1) {
+    this.x2 = x1;
     }
 
     public String toString() {
