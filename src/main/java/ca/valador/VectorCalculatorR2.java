@@ -2,7 +2,7 @@ package ca.valador;
 import java.lang.Math;
 
 
-public class VectorCalculator {
+public class VectorCalculatorR2 {
 
     public Vector v1;
     public Vector v2;
@@ -35,5 +35,9 @@ public class VectorCalculator {
 
     public double dotProduct(Vector v1, Vector v2) {
         return ((v1.getX1() * v2.getX1() + v1.getX2() * v2.getX2()));
-   }
+    }
+
+    public double crossProduct(Vector v1, Vector v2) {
+        return ((v1.getX1() * v2.getX2() - v1.getX2() * v2.getX1()));
+    }
 }

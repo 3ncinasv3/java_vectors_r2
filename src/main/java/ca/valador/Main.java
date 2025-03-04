@@ -4,9 +4,9 @@ public class Main {
  
     public static void main (String[] args) {
     System.out.println("Hello World");
-    VectorCalculator calc = new VectorCalculator();
+    VectorCalculatorR2 calc = new VectorCalculatorR2();
     Vector v1 = new Vector(2, 3);
-    Vector v2 = new Vector(-2 , -3);
+    Vector v2 = new Vector(2 , 3);
 
     Vector x = calc.addVector(v1, v2);
 
@@ -25,11 +25,7 @@ public class Main {
 
     System.out.println(calc.dotProduct(v1, v2));
 
-
-
-
-
-
+    System.out.println(calc.crossProduct(v1, v2));
 
     }
 }
